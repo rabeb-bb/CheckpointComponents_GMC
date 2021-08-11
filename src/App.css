@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/*component style*/
+.fName {
+  font-size: 3em;
+  color: #251472;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
