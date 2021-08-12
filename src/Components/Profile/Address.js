@@ -1,9 +1,9 @@
 import React from "react";
 
 const Address = () => {
-    let address =prompt("what's your address?", String)
+    let address ="Address address address";
  return (
-     <p>
+     <p style={{fontSize:'1.5em'}}>
          {address}
      </p>
  );

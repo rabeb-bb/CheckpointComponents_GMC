@@ -1,10 +1,10 @@
 import React from "react";
 
 const FullName = () => {
-    let firstName = prompt("what's your first name?", String);
-    let lastName = prompt("what's your last name?", String);
+    let firstName = "First name";
+    let lastName = "Last name";
     return (
-        <p>
+        <p style={{fontSize: '3em', color: '#251472', fontWeight: 'bold'}}>
           {firstName} {lastName}
         </p>
  );

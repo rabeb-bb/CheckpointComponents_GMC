@@ -7,8 +7,8 @@ import ProfilePhoto from './Components/Profile/ProfilePhoto';
 function App() {
   return (
     <div className="App">
-     <ProfilePhoto style={{border:"solid 2em gray"}}></ProfilePhoto>
-     <FullName className="fName"></FullName>
+     <ProfilePhoto></ProfilePhoto>
+     <FullName></FullName>
      <Address></Address>
     </div>
   );
